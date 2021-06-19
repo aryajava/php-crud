@@ -45,7 +45,7 @@
                                                 <a href="http://localhost/php-crud/barang/ubah?id=<?= $value['id']; ?>&&kdbarang=<?= $value['kdbarang']; ?>" class="btn btn-sm btn-success">UBAH</a>
                                             </div>
                                             <div class="col d-grid gap-2">
-                                                <a href="http://localhost/php-crud/barang/hapus?id=<?= $value['id']; ?>&&kdbarang=<?= $value['kdbarang']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Hapus Data Barang?');">HAPUS</a>
+                                                <a href="http://localhost/php-crud/barang/hapus?id=<?= $value['id']; ?>&&kdbarang=<?= $value['kdbarang']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('Hapus Data Barang | <?= $value['kdbarang'] ?> ?');">HAPUS</a>
                                             </div>
                                         </div>
                                     </td>
